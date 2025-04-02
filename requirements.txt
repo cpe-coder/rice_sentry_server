@@ -1,7 +1,6 @@
 fastapi
 uvicorn
-tensorflow
 pillow
-numpy
-keras
 matplotlib
+numpy
+tensorflow
