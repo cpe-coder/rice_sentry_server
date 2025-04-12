@@ -8,7 +8,7 @@ import tensorflow as tf
 app = FastAPI()
 
 # Load your model
-MODEL = tf.keras.models.load_model("../models/rice.h5")
+MODEL = tf.keras.models.load_model("../models/rice.keras")
 
 # Class names
 CLASS_NAMES = [
@@ -34,13 +34,12 @@ def read_file_as_image(data) -> np.ndarray:
 async def predict(file: UploadFile = File(...)):
     image = read_file_as_image(await file.read())
 
-    img_batch = np.expand_dims(image, 0) 
+    img_batch = np.expand_dims(image, 0)  
     
     predictions = MODEL.predict(img_batch)
     predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
-    confidence = np.max(predictions[0])
-    print(predicted_class)
-    print(confidence)
+    confidence = float(np.max(predictions[0])) * 100
+
     return {
         "class": predicted_class,
         "confidence": f"{confidence:.2f}%"
