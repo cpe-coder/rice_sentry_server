@@ -58,9 +58,11 @@ async def predict(file: UploadFile = File(...)):
     confidence = float(np.max(predictions[0])) * 100
 
     details = DISEASES_DETAILS.get(predicted_class, {
-         "description": "No details available.",
-         "solution": "N/A",
-         "riskLevel": "Unknown"
+        "Disease": "No details available",
+		"Description": "Unknown",
+		"Recommendations": "N/A",
+		"Pesticide": "N/A",
+		"Guidelines": "N/A"
     })
 
     return {

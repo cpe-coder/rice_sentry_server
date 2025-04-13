@@ -6,6 +6,13 @@
 		"Pesticide": "Lambda-cyhalothrin, Chlorantraniliprole",
 		"Guidelines": "Spray early in the evening when armyworms are feeding. Monitor population before applying insecticides."
 	},
+	"BackterialBlight": {
+		"Disease": "Backterial Leaf Blight",
+		"Description": "This bacterial disease starts as water-soaked streaks on leaves and spreads, causing wilting and drying. It is more severe in wet, stormy weather and can drastically reduce grain yield.",
+		"Recommendations": "Avoid planting infected seeds, use resistant varieties.",
+		"Pesticide": "Copper-based bactericides",
+		"Guidelines": "Apply bactericides at early disease stages. Ensure good field drainage to prevent bacterial spread."
+	},
 	"BrownPlanthopper": {
 		"Disease": "Brown Planthopper (BPH)",
 		"Description": "Small brown insects that suck plant sap from rice stems, causing leaves to turn yellow and dry up. When populations are high, they cause \"hopperburn,\" where entire patches of rice plants wilt and die.",
