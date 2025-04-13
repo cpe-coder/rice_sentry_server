@@ -5,6 +5,7 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
+import json
 
 app = FastAPI()
 
@@ -20,7 +21,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+with open("../data/disease.json") as result:
+    DISEASES_DETAILS = json.load(result)
+
 MODEL = tf.keras.models.load_model("../models/rice.keras")
+
+DETAILS = "../data/disease.json"
 
 CLASS_NAMES = [
     'ArmyWorm', 'BackterialBlight', 'BrownPlanthopper', 'BrownSpot', 'CaseWorm',
@@ -51,9 +57,16 @@ async def predict(file: UploadFile = File(...)):
     predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
     confidence = float(np.max(predictions[0])) * 100
 
+    details = DISEASES_DETAILS.get(predicted_class, {
+         "description": "No details available.",
+         "solution": "N/A",
+         "riskLevel": "Unknown"
+    })
+
     return {
         "class": predicted_class,
-        "confidence": f"{confidence:.2f}%"
+        "confidence": f"{confidence:.2f}",
+        "details": details
     }
 
 if __name__ == "__main__":
