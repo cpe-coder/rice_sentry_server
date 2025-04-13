@@ -1,6 +1,4 @@
 from fastapi import FastAPI, File, UploadFile
-from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
 import numpy as np
 from io import BytesIO
 from PIL import Image
@@ -9,24 +7,10 @@ import json
 
 app = FastAPI()
 
-origins = [
-    "http://localhost",
-    "http://localhost:3000",
-]
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-with open("../data/disease.json") as result:
+with open("disease.json") as result:
     DISEASES_DETAILS = json.load(result)
 
-MODEL = tf.keras.models.load_model("../models/rice.keras")
-
-DETAILS = "../data/disease.json"
+MODEL = tf.keras.models.load_model("rice.keras")
 
 CLASS_NAMES = [
     'ArmyWorm', 'BackterialBlight', 'BrownPlanthopper', 'BrownSpot', 'CaseWorm',
@@ -71,5 +55,4 @@ async def predict(file: UploadFile = File(...)):
         "details": details
     }
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
+
