@@ -5,6 +5,8 @@ from PIL import Image
 import tensorflow as tf
 import json
 
+PORT = 8000
+
 app = FastAPI()
 
 with open("disease.json") as result:
