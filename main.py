@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 import numpy as np
+import uvicorn
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
@@ -58,3 +59,5 @@ async def predict(file: UploadFile = File(...)):
     }
 
 
+if __name__ == "__main__":
+    uvicorn.run(app, host="localhost", port=8000)
