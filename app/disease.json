@@ -1,0 +1,170 @@
+{
+	"ArmyWorm": {
+		"Disease": "Army Worm",
+		"Description": "Armyworms are caterpillars that attack rice plants at night, eating leaves and stems. Large outbreaks can completely defoliate fields, leaving rice plants unable to recover.",
+		"Recommendations": "Encourage birds and wasps that prey on them.",
+		"Pesticide": "Lambda-cyhalothrin, Chlorantraniliprole",
+		"Guidelines": "Spray early in the evening when armyworms are feeding. Monitor population before applying insecticides."
+	},
+	"BackterialBlight": {
+		"Disease": "Backterial Leaf Blight",
+		"Description": "This bacterial disease starts as water-soaked streaks on leaves and spreads, causing wilting and drying. It is more severe in wet, stormy weather and can drastically reduce grain yield.",
+		"Recommendations": "Avoid planting infected seeds, use resistant varieties.",
+		"Pesticide": "Copper-based bactericides",
+		"Guidelines": "Apply bactericides at early disease stages. Ensure good field drainage to prevent bacterial spread."
+	},
+	"BrownPlanthopper": {
+		"Disease": "Brown Planthopper (BPH)",
+		"Description": "Small brown insects that suck plant sap from rice stems, causing leaves to turn yellow and dry up. When populations are high, they cause \"hopperburn,\" where entire patches of rice plants wilt and die.",
+		"Recommendations": "Use resistant rice varieties, avoid excessive nitrogen fertilizer.",
+		"Pesticide": "Imidacloprid, Buprofezin",
+		"Guidelines": "Spray early in the morning or late afternoon. Avoid overuse to prevent pesticide resistance."
+	},
+	"BrownSpot": {
+		"Disease": "Brown Spot Disease",
+		"Description": "A fungal disease that causes brown circular spots on leaves and grains. It weakens plants and reduces rice quality.",
+		"Recommendations": "Apply potassium-rich fertilizers and use resistant varieties.",
+		"Pesticide": "Mancozeb, Tricyclazole",
+		"Guidelines": "Spray when symptoms first appear. Maintain good field sanitation."
+	},
+	"CaseWorm": {
+		"Disease": "Caseworm",
+		"Description": "Small larvae that feed on rice leaves, cutting them into pieces and rolling them into protective cases. Infested plants look ragged and weak.",
+		"Recommendations": "Drain fields for a few days to kill larvae.",
+		"Pesticide": "Lambda-cyhalothrin, Chlorantraniliprole",
+		"Guidelines": "Apply pesticide when larvae are still small. Ensure even spraying on leaves."
+	},
+	"FalseSmut": {
+		"Disease": "False Smut",
+		"Description": "A fungal disease that turns rice grains into green, powdery balls. It reduces grain quality and spreads in humid conditions.",
+		"Recommendations": "Plant disease-free seeds and practice crop rotation.",
+		"Pesticide": "Copper-based fungicides, Propiconazole",
+		"Guidelines": "Apply before flowering stage for best results. Avoid excessive watering."
+	},
+	"GoldenAppleSnail": {
+		"Disease": "Golden Apple Snail",
+		"Description": "A destructive pest that lays pink eggs near water and hatches into snails that eat young rice seedlings. It thrives in flooded fields and can quickly destroy newly planted rice.",
+		"Recommendations": "Hand-pick snails, use duck farming to control.",
+		"Pesticide": "Metaldehyde, Niclosamide",
+		"Guidelines": "Apply at low water levels for better effectiveness. Prevent runoff to protect fish and other aquatic life."
+	},
+	"GreenLeafHopper": {
+		"Disease": "Green Leafhopper",
+		"Description": "Tiny green insects that transmit \"Tungro virus,\" one of the most damaging rice diseases. Infected plants turn yellow, become stunted, and produce fewer grains.",
+		"Recommendations": "Plant resistant varieties, use balanced fertilizers.",
+		"Pesticide": "Imidacloprid, Fipronil",
+		"Guidelines": "Apply insecticide when leafhoppers first appear. Rotate chemicals to prevent resistance."
+	},
+	"LeafScald": {
+		"Disease": "Leaf Scald",
+		"Description": "A fungal disease that causes long brown streaks on leaves, making them dry and weak. It spreads in hot and humid weather.",
+		"Recommendations": "Use resistant varieties and avoid over-fertilizing.",
+		"Pesticide": "Tricyclazole, Propiconazole",
+		"Guidelines": "Spray fungicide when symptoms appear. Improve field drainage."
+	},
+	"RiceBlast": {
+		"Disease": "Rice Blast",
+		"Description": "A fungal disease that causes grayish spots on leaves, stems, and grains. It spreads rapidly in humid conditions and can kill entire plants if untreated.",
+		"Recommendations": "Use resistant varieties and avoid excessive nitrogen fertilizer.",
+		"Fungicide": "Tricyclazole, Isoprothiolane",
+		"Guidelines": "Apply fungicide in the early morning. Ensure thorough coverage, especially on infected areas."
+	},
+	"RiceDiscoloration": {
+		"Disease": "Rice Discoloration",
+		"Description": "A disease that causes rice grains to turn brown, black, or red. It lowers grain quality and reduces market value.",
+		"Recommendations": "Dry harvested grains properly and store them in clean conditions.",
+		"Pesticide": "Mancozeb, Carbendazim",
+		"Guidelines": "Apply fungicide at the early stage of grain formation. Avoid excess moisture in storage."
+	},
+	"RiceEarBug": {
+		"Disease": "Rice Ear Bug",
+		"Description": "Bugs that suck sap from developing rice grains, causing them to be shriveled and ",
+		"Recommendations": "Synchronize planting and practice field sanitation.",
+		"Pesticide": "Cypermethrin, Deltamethrin",
+		"Guidelines": "Apply pesticide at early infestation. Use light traps at night to catch bugs."
+	},
+	"RiceLeafFolder": {
+		"Disease": "Rice Leaf Folder",
+		"Description": "Small caterpillars that fold rice leaves and feed inside, leaving leaves with white streaks and dried-out tips. Heavy infestations reduce yield.",
+		"Recommendations": "Encourage natural predators like spiders and birds.",
+		"Pesticide": "Lambda-cyhalothrin, Chlorantraniliprole",
+		"Guidelines": "Spray early in the morning. Avoid excessive use to protect helpful insects."
+	},
+	"RiceGallMidge": {
+		"Disease": "Rice Gall Midge",
+		"Description": "Tiny flies that lay eggs in rice shoots, causing swelling and abnormal growth called galls. Infested plants produce fewer grains.",
+		"Recommendations": "Use resistant varieties and remove infested plants.",
+		"Pesticide": "Fipronil, Imidacloprid",
+		"Guidelines": "Spray early before pests multiply. Use only when necessary."
+	},
+	"RiceMealyBug": {
+		"Disease": "Rice Mealybug",
+		"Description": "Tiny white insects that suck plant sap and leave behind a waxy substance. This weakens plants and leads to stunted growth.",
+		"Recommendations": "Encourage natural predators like ladybugs.",
+		"Pesticide": "Imidacloprid, Thiamethoxam",
+		"Guidelines": "Apply insecticide directly on infested areas. Do not overuse chemicals to protect helpful insects."
+	},
+	"RiceRootAphid": {
+		"Disease": "Rice Root Aphid",
+		"Description": "Small, soft-bodied insects that attack rice roots, weakening plants and causing yellow leaves and poor growth.",
+		"Recommendations": "Improve soil drainage and remove weeds.",
+		"Pesticide": "Imidacloprid, Thiamethoxam",
+		"Guidelines": "Apply in the early morning when aphids are most active. Avoid spraying during strong winds."
+	},
+	"RiceStemBorer": {
+		"Disease": "Rice Stem Borer",
+		"Description": "Caterpillars of this pest bore into rice stems, blocking water and nutrient flow. This leads to \"dead hearts\" in young plants and \"whiteheads\" in mature plants, reducing grain production.",
+		"Recommendations": "Use light traps and resistant varieties.",
+		"Pesticide": "Cartap hydrochloride, Chlorantraniliprole",
+		"Guidelines": "Apply pesticides at the early larval stage. Ensure thorough coverage on stems."
+	},
+	"RiceThrips": {
+		"Disease": "Rice Thrips",
+		"Description": "Small, slender insects that feed on young leaves, causing them to curl and turn brown. Thrips attack seedlings and reduce plant growth.",
+		"Recommendations": "Keep fields weed-free and use resistant varieties.",
+		"Pesticide": "Spinosad, Fipronil",
+		"Guidelines": "Spray early in the morning when thrips are active. Avoid unnecessary pesticide use."
+	},
+	"RiceWhorlMaggot": {
+		"Disease": "Rice Whorl Maggot",
+		"Description": "Maggots that feed inside young rice shoots, causing rolled or twisted leaves. Infested plants have stunted growth.",
+		"Recommendations": "Use resistant varieties and maintain good field sanitation.",
+		"Pesticide": "Carbaryl, Cypermethrin",
+		"Guidelines": "Apply at early infestation. Rotate pesticides to prevent resistance."
+	},
+	"ShealthBlight": {
+		"Disease": "Shealth Blight",
+		"Description": "A fungal disease that causes large oval spots on leaves and stems. It spreads fast in wet conditions and weakens rice plants.",
+		"Recommendations": "Use proper plant spacing to allow airflow.",
+		"Pesticide": "Propiconazole, Azoxystrobin",
+		"Guidelines": "Apply fungicide when disease spots appear. Avoid excessive nitrogen fertilizer."
+	},
+	"SheathRot": {
+		"Disease": "Sheath Rot",
+		"Description": "A fungal disease that causes brown rotting lesions on the rice stem sheath, preventing proper grain development.",
+		"Recommendations": "Use clean seeds and avoid excessive nitrogen fertilizer.",
+		"Pesticide": "Azoxystrobin, Carbendazim",
+		"Guidelines": "Spray at the early flowering stage. Ensure even application on affected areas."
+	},
+	"WhitePlanthopper": {
+		"Disease": "White Planthopper",
+		"Description": "Small white insects that suck plant sap, causing leaves to turn yellow and dry. They also produce sticky honeydew, which leads to sooty mold.",
+		"Recommendations": "Use resistant rice varieties, avoid overwatering.",
+		"Pesticide": "Buprofezin, Imidacloprid",
+		"Guidelines": "Spray in the morning or late afternoon. Rotate pesticides to prevent resistance."
+	},
+	"ZigzagLeafhopper": {
+		"Disease": "Zigzag Leaf hopper",
+		"Description": "Small insects that suck plant sap, leaving zigzag feeding marks on leaves. They also spread plant viruses.",
+		"Recommendations": "Remove weeds around fields and use resistant rice varieties.",
+		"Pesticide": "Fipronil, Buprofezin",
+		"Guidelines": "Spray pesticide evenly on affected plants. Avoid excessive use."
+	},
+	"healty": {
+		"Disease": "",
+		"Description": "",
+		"Recommendations": "",
+		"Pesticide": "",
+		"Guidelines": ""
+	}
+}
